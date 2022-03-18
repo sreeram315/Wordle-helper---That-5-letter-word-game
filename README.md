@@ -13,4 +13,34 @@ Run as:
 
 Prints the list of all possible english words with given rules and restrictions applied.
 
+---
+
+Example:
+Imagine you were stuck here:
+![Example image](data/example.jpg)
+
+It's too hard/risky to try and lose a game now. use this helper.
+
+the data in `help.py` will be 
+```
+must_include = 'RAE'
+must_not_include = 'HOUSCNTULIPHITCHFILTHPLSMGUMP'
+letter_not_at = {
+	'R': [2,4],
+	'A': [3,4],
+	'E': [2,3,5]
+}
+letter_be_at = {
+	'R': [5]
+}
+```
+
+Then do:
+```
+$ python help.py
+BAKER
+WAVER
+```
+
+
 Enjoy!

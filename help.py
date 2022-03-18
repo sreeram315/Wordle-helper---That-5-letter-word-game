@@ -3,16 +3,15 @@ This code is propritory.
 Property of the fat body prince.
 '''
 
-must_include = 'AEPL'
-must_not_include = 'CRHOUSNJOKYTUIDR'
+must_include = 'RAE'
+must_not_include = 'HOUSCNTULIPHITCHFILTHPLSMGUMP'
 letter_not_at = {
-	'A': [1,4],
-	'L': [3],
-	'P': [5],
-	'E': [4]
+	'R': [2,4],
+	'A': [3,4],
+	'E': [2,3,5]
 }
 letter_be_at = {
-	'E': [5]
+	'R': [5]
 }
 
 words = [x.strip().upper() for x in open('words.txt', 'r').readlines()]
