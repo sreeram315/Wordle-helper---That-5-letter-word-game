@@ -18,7 +18,7 @@ Prints the list of all possible english words with given rules and restrictions 
 Example:
 Imagine you were stuck here:
 
-![Example image](data/example.jpg | width=50)
+<img src="data/example.jpg" width="50" height="50">
 
 It's too hard/risky to try and lose a game now. use this helper.
 
