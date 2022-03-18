@@ -9,7 +9,9 @@ An example is already shown in the program help.py
 
 Run as:
 
-# python help.py
+```
+$ python help.py
+```
 
 Prints the list of all possible english words with given rules and restrictions applied.
 
